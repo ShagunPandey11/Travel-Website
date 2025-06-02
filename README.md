@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+## Travel Website (React Practice Project)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple travel-themed website I built while learning React. It’s a beginner-level project created to practice key front-end development skills like:
 
-## Available Scripts
+- Creating components
+- Using React Router for a single-page application feel
+- Working with props and custom attributes
+- Building reusable layouts like Navbar and Footer
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## What’s Inside
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+When you open the site, you’ll land on a homepage with a clean layout and a message:
+**"Adventure Awaits — What Are You Waiting For?"**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Scroll down and you'll see featured destinations, each with images and simple hover effects. These cards are not clickable — they’re just for layout/design practice.
 
-### `npm test`
+There’s also a basic navigation bar with links to:
+- Home
+- Services
+- Products
+- Sign Up
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Only the Home page has detailed content. The other pages like Services and Products show static placeholder sections with just text or images.
 
-### `npm run build`
+The **About Us**, **Contact Us**, **Social media** and **Video** sections are present as text links in the footer but do not contain functional content. These were added for layout structure.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Why I Built This
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project was created to demonstrate my ability to:
+- Structure a basic website using React
+- Use React Router for navigation
+- Design and organize frontend content
+- Apply simple effects and layout styling
 
-### `npm run eject`
+It’s not a fully interactive website — it’s more of a sandbox where I learned and applied key frontend concepts. Think of it as a portfolio piece showing my growth in content development and UI building.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React JS
+- React Router DOM
+- CSS
+- JSX
